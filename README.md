@@ -1,9 +1,18 @@
 # Solana Wallet Tracker
 
-Check any Solana wallet's SOL balance and recent transactions from your terminal.
+Check any Solana wallet's SOL balance and recent transactions — terminal or web UI.
 No installs, no API keys — Python 3.8+ stdlib only.
 
-## Run it
+## Run it on any computer
+
+```bash
+git clone https://github.com/plinluu/solana-wallet-tracker.git
+cd solana-wallet-tracker
+python3 tracker.py <WALLET_ADDRESS> --usd   # terminal version
+python3 app.py                              # web UI, then open http://127.0.0.1:8080
+```
+
+## Options
 
 ```bash
 python3 tracker.py <WALLET_ADDRESS>
